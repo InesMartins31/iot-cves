@@ -13,9 +13,9 @@ Attack type|CVE| Hardware / Software | Description
 | RCE |[CVE-2019-11043](CVE-2019-11043)| PHP-FPM | In certain configurations of FPM setup it is possible to cause FPM <br>  module to write past allocated buffers into the space reserved for  <br> FCGI protocol data, thus opening the possibility of remote code execution. In certain nginx + PHP-FPM configurations, the bug is possible to trigger from the outside.
 | MitM | [CVE-2019-6110 / CVE-2019-6111](CVE-2019-6111) | SCP - Secure Copy (openssh-clients package) | Vulnerability in OpenSSH that allows overwrite in files and could possible send more responses than required by user. |
 | Privilege escalation / RCE | [CVE-2019-5736](CVE-2019-5736) | Docker | The vulnerability allows a malicious container (with minimal user interaction) to overwrite the host <i>runc</i> binary and thus gain root-level code execution on the host.|
+| Remote file reading | [CVE-2018-18778](CVE-2018-18778) | Mini_httpd | Mini_httpd before 1.30 lets remote users read arbitrary files.|  
 | Privilege escalation | [CVE-2018-15473](CVE-2018-15473)| SSH |User enumeration: Vulnerability in OpenSSH that could allow a remote attacker to determine if a user with the given name exists in the system.|
 | Privilege escalation | [CVE-2018-10933](CVE-2018-10933) | SSH | The <b>libssh</b>, a multiplatform library that supports the SSH protocol, allows attackers to bypass authentication and gain full control over vulnerable servers.| 
-
 
 
 

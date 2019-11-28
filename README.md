@@ -8,6 +8,7 @@ List
 
 Attack type|CVE| Hardware / Software | Description
 |:---:|:---:|:---:|---|
+| RCE | [CVE-2019-15642](CVE-2019-15642) | Webmin | Webmin allows authenticated Remote Code Execution via a crafted object.|
 | RCE | [CVE-2019-15107](CVE-2019-15107) | Webmin | The parameter old in <i>password_change.cgi</i> contains a command injection vulnerability.|
 | Privilege escalation | [CVE-2019-14287](CVE-2019-14287)| Sudo |An attacker with access to a Runas ALL sudoer account can bypass certain policy blacklists and session PAM modules, and <br> can cause incorrect logging, by invoking sudo with a crafted  <br>  user ID. |
 | Privilege escalation | [CVE-2019-13272](CVE-2019-13272) | Linux kernel (ptrace) | <i>Ptrace</i> mishandles the recording of the credentials of a process <br> that wants to create a ptrace relationship, which allows local users <br> to obtain root access by leveraging certain scenarios with a  <br> parent-child process relationship, where a parent drops privileges and calls <i>execve</i> (potentially allowing control by an attacker).|

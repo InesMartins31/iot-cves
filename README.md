@@ -8,6 +8,7 @@ List
 
 Attack type|CVE| Hardware / Software | Description
 |:---:|:---:|:---:|---|
+| Out-of-Bounds Read | [CVE-2019-17498](CVE-2019-17498) | Libssh2 | Libssh2 version 1.9.0 contains a remotely triggerable out-of-bounds read, leading to denial of service or potentially to information disclosure.
 | RCE | [CVE-2019-15642](CVE-2019-15642) | Webmin | Webmin allows authenticated Remote Code Execution via a crafted object.|
 | RCE | [CVE-2019-15107](CVE-2019-15107) | Webmin | The parameter old in <i>password_change.cgi</i> contains a command injection vulnerability.|
 | Privilege escalation | [CVE-2019-14287](CVE-2019-14287)| Sudo |An attacker with access to a Runas ALL sudoer account can bypass certain policy blacklists and session PAM modules, and <br> can cause incorrect logging, by invoking sudo with a crafted  <br>  user ID. |

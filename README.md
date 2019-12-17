@@ -16,6 +16,7 @@ Attack type|CVE| Hardware / Software | Description
 | Out-of-Bounds read | [CVE-2019-13115](CVE-2019-13115) | Libssh2 | Libssh2 version 1.8.2 contains a remotely triggerable out-of-bounds read, potentially leading to information disclosure. |
 | RCE | [CVE-2019-12840](CVE-2019-12840) | Webmin | Any user authorized to the "Package Updates" module can execute arbitrary commands with root privileges. |
 | RCE |[CVE-2019-11043](CVE-2019-11043)| PHP-FPM | In certain configurations of FPM setup it is possible to cause FPM <br>  module to write past allocated buffers into the space reserved for  <br> FCGI protocol data, thus opening the possibility of remote code execution. In certain nginx + PHP-FPM configurations, the bug is possible to trigger from the outside.
+| RCE | [CVE-2019-9624](CVE-2019-9624) | Webmin | Allows remote attackers to execute arbitrary code by leveraging privileges to upload a crafted .cgi file via the /updown/upload.cgi URI.|
 | MitM | [CVE-2019-6110 / CVE-2019-6111](CVE-2019-6111) | SCP - Secure Copy (openssh-clients package) | Vulnerability in OpenSSH that allows overwrite in files and could possible send more responses than required by user. |
 | Privilege escalation / RCE | [CVE-2019-5736](CVE-2019-5736) | Docker | The vulnerability allows a malicious container (with minimal user interaction) to overwrite the host <i>runc</i> binary and thus gain root-level code execution on the host.|
 | Remote file reading | [CVE-2018-18778](CVE-2018-18778) | Mini_httpd | Mini_httpd before 1.30 lets remote users read arbitrary files.|  

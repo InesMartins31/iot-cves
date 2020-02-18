@@ -8,6 +8,7 @@ List
 
 Attack type|CVE| Hardware / Software | Description
 |:---:|:---:|:---:|---|
+| Buffer overflow | [CVE-2019-18634](CVE-2019-18634) | Sudo | A heap buffer overflow that leads to privilege escalation on sudo <=1.8.30. |
 | Out-of-Bounds read | [CVE-2019-17498](CVE-2019-17498) | Libssh2 | Libssh2 version 1.9.0 contains a remotely triggerable out-of-bounds read, leading to denial of service or potentially to information disclosure.|
 | RCE | [CVE-2019-15642](CVE-2019-15642) | Webmin | Webmin allows authenticated Remote Code Execution via a crafted object.|
 | RCE | [CVE-2019-15107](CVE-2019-15107) | Webmin | The parameter old in <i>password_change.cgi</i> contains a command injection vulnerability.|
@@ -21,8 +22,7 @@ Attack type|CVE| Hardware / Software | Description
 | Privilege escalation / RCE | [CVE-2019-5736](CVE-2019-5736) | Docker | The vulnerability allows a malicious container (with minimal user interaction) to overwrite the host <i>runc</i> binary and thus gain root-level code execution on the host.|
 | Remote file reading | [CVE-2018-18778](CVE-2018-18778) | Mini_httpd | Mini_httpd before 1.30 lets remote users read arbitrary files.|  
 | User enumeration | [CVE-2018-15473](CVE-2018-15473)| OpenSSH | Vulnerability that could allow a remote attacker to determine if a user with the given name exists in the system.|
-| Privilege escalation | [CVE-2018-10933](CVE-2018-10933) | SSH | The <b>libssh</b>, a multiplatform library that supports the SSH protocol, allows attackers to bypass authentication and gain full control over vulnerable servers.| 
-
+| Privilege escalation | [CVE-2018-10933](CVE-2018-10933) | SSH | The <b>libssh</b>, a multiplatform library that supports the SSH protocol, allows attackers to bypass authentication and gain full control over vulnerable servers.|   
 
 [comment]: <> (This is a comment, it will not be included)
 

@@ -8,6 +8,8 @@ List
 
 Attack type|CVE| Hardware / Software | Description
 |:---:|:---:|:---:|---|
+| Disclosure of information about datasources including access passwords| [CVE-2019-13348](CVE-2019-13348)| Knowage | An authenticated user who accesses the datasources page will gain access to any data source credentials in cleartext, which includes databases. |
+| Password Hash Disclosure | [CVE-2019-13349](CVE-2019-13349) | Knowage | An authenticated user that accesses the users page will obtain all user password hashes.|
 | Buffer overflow | [CVE-2019-18634](CVE-2019-18634) | Sudo | A heap buffer overflow that leads to privilege escalation on sudo <=1.8.25. |
 | Out-of-Bounds read | [CVE-2019-17498](CVE-2019-17498) | Libssh2 | Libssh2 version 1.9.0 contains a remotely triggerable out-of-bounds read, leading to denial of service or potentially to information disclosure.|
 | RCE | [CVE-2019-15642](CVE-2019-15642) | Webmin | Webmin allows authenticated Remote Code Execution via a crafted object.|

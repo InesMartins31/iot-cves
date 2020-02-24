@@ -8,6 +8,7 @@ List
 
 Attack type|CVE| Hardware / Software | Description
 |:---:|:---:|:---:|---|
+| RCE | [CVE-2020-7246](CVE-2020-7246) | qdPM |qdPM version 9.1 suffers from a remote code execution vulnerability|
 | Disclosure of information about datasources including access passwords| [CVE-2019-13348](CVE-2019-13348)| Knowage | An authenticated user who accesses the datasources page will gain access to any data source credentials in cleartext, which includes databases. |
 | Password Hash Disclosure | [CVE-2019-13349](CVE-2019-13349) | Knowage | An authenticated user that accesses the users page will obtain all user password hashes.|
 | Buffer overflow | [CVE-2019-18634](CVE-2019-18634) | Sudo | A heap buffer overflow that leads to privilege escalation on sudo <=1.8.25. |

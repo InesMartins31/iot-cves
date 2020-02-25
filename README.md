@@ -8,14 +8,15 @@ List
 
 Attack type|CVE| Hardware / Software | Description
 |:---:|:---:|:---:|---|
-| RCE | [CVE-2020-7246](CVE-2020-7246) | qdPM |qdPM version 9.1 suffers from a remote code execution vulnerability|
-| Disclosure of information about datasources including access passwords| [CVE-2019-13348](CVE-2019-13348)| Knowage | An authenticated user who accesses the datasources page will gain access to any data source credentials in cleartext, which includes databases. |
-| Password Hash Disclosure | [CVE-2019-13349](CVE-2019-13349) | Knowage | An authenticated user that accesses the users page will obtain all user password hashes.|
+| DoS | [CVE-2020-9283](CVE-2020-9283) | SSH (Go) | golang.org/x/crypto before v0.0.0-20200220183623-bac4c82f6975 allows a malicious user to cause a panic on an SSH server.
+| RCE | [CVE-2020-7246](CVE-2020-7246) | qdPM |qdPM version 9.1 suffers from a remote code execution vulnerability.|
 | Buffer overflow | [CVE-2019-18634](CVE-2019-18634) | Sudo | A heap buffer overflow that leads to privilege escalation on sudo <=1.8.25. |
 | Out-of-Bounds read | [CVE-2019-17498](CVE-2019-17498) | Libssh2 | Libssh2 version 1.9.0 contains a remotely triggerable out-of-bounds read, leading to denial of service or potentially to information disclosure.|
 | RCE | [CVE-2019-15642](CVE-2019-15642) | Webmin | Webmin allows authenticated Remote Code Execution via a crafted object.|
 | RCE | [CVE-2019-15107](CVE-2019-15107) | Webmin | The parameter old in <i>password_change.cgi</i> contains a command injection vulnerability.|
 | Privilege escalation | [CVE-2019-14287](CVE-2019-14287)| Sudo |An attacker with access to a Runas ALL sudoer account can bypass certain policy blacklists and session PAM modules, and <br> can cause incorrect logging, by invoking sudo with a crafted  <br>  user ID. |
+| Password Hash Disclosure | [CVE-2019-13349](CVE-2019-13349) | Knowage | An authenticated user that accesses the users page will obtain all user password hashes.|
+| Disclosure of information about datasources including access passwords| [CVE-2019-13348](CVE-2019-13348)| Knowage | An authenticated user who accesses the datasources page will gain access to any data source credentials in cleartext, which includes databases. |
 | Privilege escalation | [CVE-2019-13272](CVE-2019-13272) | Linux kernel (ptrace) | <i>Ptrace</i> mishandles the recording of the credentials of a process <br> that wants to create a ptrace relationship, which allows local users <br> to obtain root access by leveraging certain scenarios with a  <br> parent-child process relationship, where a parent drops privileges and calls <i>execve</i> (potentially allowing control by an attacker).|
 | Out-of-Bounds read | [CVE-2019-13115](CVE-2019-13115) | Libssh2 | Libssh2 version 1.8.2 contains a remotely triggerable out-of-bounds read, potentially leading to information disclosure. |
 | RCE | [CVE-2019-12840](CVE-2019-12840) | Webmin | Any user authorized to the "Package Updates" module can execute arbitrary commands with root privileges. |

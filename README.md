@@ -9,6 +9,7 @@ Attack type|CVE| Hardware / Software | Description
 |:---:|:---:|:---:|---|
 | DoS | [CVE-2020-9283](CVE-2020-9283) | SSH (Go) | golang.org/x/crypto before <br> v0.0.0-20200220183623-bac4c82f6975  <br/>  allows a malicious user to cause a panic on an SSH server.
 | RCE | [CVE-2020-7246](CVE-2020-7246) | qdPM |qdPM version 9.1 suffers from a remote code <br> execution vulnerability.|
+| Unauthorized File <br> Read | [CVE-2020-1938](CVE-2020-1938) | Apache <br> Tomcat | The AJP protocol is enabled by default allowing untrusted clients to read web application files. |
 | Buffer overflow | [CVE-2019-18634](CVE-2019-18634) | Sudo | A heap buffer overflow that leads to privilege escalation <br> on sudo <=1.8.25. |
 | Out-of-Bounds read | [CVE-2019-17498](CVE-2019-17498) | Libssh2 | Libssh2 version 1.9.0 contains a remotely triggerable <br> out-of-bounds read, leading to denial of service or <br> potentially to information disclosure.|
 | RCE | [CVE-2019-15642](CVE-2019-15642) | Webmin | Webmin allows authenticated Remote Code Execution via <br>  a crafted object.|

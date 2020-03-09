@@ -13,6 +13,7 @@ Attack type|CVE| Hardware / Software | Description
 | Buffer overflow | [CVE-2019-18634](CVE-2019-18634) | Sudo | A heap buffer overflow that leads to privilege escalation <br> on sudo <=1.8.25. |
 | Out-of-Bounds read | [CVE-2019-17498](CVE-2019-17498) | Libssh2 | Libssh2 version 1.9.0 contains a remotely triggerable <br> out-of-bounds read, leading to denial of service or <br> potentially to information disclosure.|
 | RCE | [CVE-2019-15642](CVE-2019-15642) | Webmin | Webmin allows authenticated Remote Code Execution via <br>  a crafted object.|
+| XXE | [CVE-2019-15641](CVE-2019-15641) | Webmin | Authenticated XXE allowing to retrieve local file or discover internal networks with root rights.|
 | RCE | [CVE-2019-15107](CVE-2019-15107) | Webmin | The parameter old in <i>password_change.cgi</i> contains a command injection vulnerability.|
 | Privilege escalation | [CVE-2019-14287](CVE-2019-14287)| Sudo |An attacker with access to a Runas ALL sudoer <br/> account can bypass certain policy blacklists and  <br/> session PAM modules, and can cause incorrect <br/> logging, by invoking sudo with a crafted user ID. |
 | Password Hash Disclosure | [CVE-2019-13349](CVE-2019-13349) | FIWARE - Knowage | An authenticated user that accesses the users page will obtain all user password hashes.|

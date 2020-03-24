@@ -34,6 +34,7 @@ IoT CVEs
 | RCE | [CVE-2019-11043](CVE-2019-11043) | PHP-FPM | In certain configurations of FPM setup it is possible to cause FPM module to write past allocated <br>buffers into the space reserved for FCGI protocol data, thus opening the possibility of remote <br>code execution. In certain nginx + PHP-FPM configurations, the bug is possible to trigger from the outside. |
 | RCE | [CVE-2019-9624](CVE-2019-9624) | Webmin | Allows remote attackers to execute arbitrary <br> code by leveraging privileges to upload a crafted <br> .cgi file via the /updown/upload.cgi URI. |
 | RCE | [CVE-2019-7731](CVE-2019-7731) | MyWebSQL | MyWebSQL 3.7 has a remote code execution <br> vulnerability after an attacker writes shell code <br> into the database, and executes the Backup Database function with a .php filename for the backup's archive file |
+| Path transversal | [CVE-2018-12015](CVE-2018-12015) | Perl | Archive::Tar module allows remote attackers to bypass a directory-traversal protection mechanism and overwrite arbitrary files. |
 
 [comment]: <> (This is a comment, it will not be included)
 

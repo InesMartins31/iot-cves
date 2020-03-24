@@ -1,0 +1,9 @@
+sudo apt-get install -y autotools-dev automake libevent-dev
+
+
+https://github.com/memcached/memcached/archive/1.6.0.tar.gz
+
+
+bash autogen.sh
+./configure --prefix=/usr/local/memcached
+make && make test && sudo make install

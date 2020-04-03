@@ -9,10 +9,10 @@ IoT CVEs
 | Unauthorized File <br> Read | [CVE-2020-1938](CVE-2020-1938) | Apache<br>Tomcat | The AJP protocol is enabled by default allowing <br>untrusted clients to read web application files. | |
 | Out-of-Bounds read | [CVE-2019-17498](CVE-2019-17498) | Libssh2 | Libssh2 version 1.9.0 contains a remotely <br> triggerable out-of-bounds read, leading to denial of service or potentially to information disclosure. | |
 | Out-of-Bounds read | [CVE-2019-13115](CVE-2019-13115) | Libssh2 | Libssh2 version 1.8.2 contains a remotely <br> triggerable out-of-bounds read, potentially leading <br> to information disclosure. | |
-| XXE | [CVE-2019-15641](CVE-2019-15641) | Webmin | Authenticated XXE allowing to retrieve local <br> file or discover internal networks with root rights. | |
+| XXE | [CVE-2019-15641](CVE-2019-15641) | Webmin | Authenticated XXE allowing to retrieve local <br> file or discover internal networks with root rights. | NO |
 | Password Hash Disclosure | [CVE-2019-13349](CVE-2019-13349) | Knowage<br>(FIWARE) | An authenticated user that accesses the users <br> page will obtain all user password hashes. | |
 | Disclosure of information about datasources including access passwords | [CVE-2019-13348](CVE-2019-13348) | Knowage<br>(FIWARE) | An authenticated user who accesses the <br> datasources page will gain access to any data <br> source credentials in cleartext, which includes databases. | |
-| XSS | [CVE-2019-13189](CVE-2019-13189) | Knowage<br>(FIWARE) | Knowage before 6.4 has Cross-site Scripting via <br> the ChangePwdServlet page, the parameters of <br> start_url and user_id are vulnerable | |
+| XSS | [CVE-2019-13189](CVE-2019-13189) | Knowage<br>(FIWARE) | Knowage before 6.4 has Cross-site Scripting via <br> the ChangePwdServlet page, the parameters of <br> start_url and user_id are vulnerable | NO |
 | Access Control Bypass | [CVE-2019-13188](CVE-2019-13188) | Knowage<br>(FIWARE) | In Knowage through 6.1.1, an unauthenticated user can bypass access controls and access the entire application | |
 | MitM | [CVE-2019-6110 / CVE-2019-6111](CVE-2019-6111) | SCP - Secure Copy <br>(openssh-clients package) | Vulnerability in OpenSSH that allows overwrite <br> in files and could possible send more responses <br> than required by user. | |
 | Privilege escalation | [CVE-2019-14287](CVE-2019-14287) | Sudo | An attacker with access to a Runas ALL sudoer <br> account can bypass certain policy blacklists and <br> session PAM modules, and can cause incorrect <br> logging, by invoking sudo with a crafted user ID. | | 

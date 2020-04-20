@@ -1,0 +1,44 @@
+https://www.howtoforge.com/tutorial/how-to-install-soplanning-on-ubuntu/
+
+
+sudo apt-get update
+sudo apt-get install -y apache2 software-properties-common
+sudo add-apt-repository ppa:ondrej/php -y
+sudo apt-get install php7.1 php7.1-mysql php7.1-curl php7.1-json php7.1-cgi php7.1-recode php7.1-sq php7.1-intl libapache2-mod-php7.1 php7.1-mcrypt php7.1-xmlrpc php7.1-gd php7.1-mbstring php7.1 php7.1-common php7.1-xmlrpc php7.1-soap php7.1-xml php7.1-intl php7.1-cli php7.1-ldap php7.1-zip php7.1-readline php7.1-imap php7.1-tidy -y wget unzip apache2 mariadb-server
+sudo systemctl start apache2
+sudo systemctl enable apache2
+sudo systemctl start mariadb
+sudo systemctl enable mariadb
+
+sudo mysql -u root <<MYSQL_SCRIPT
+USE mysql;
+DROP USER root;
+FLUSH PRIVILEGES;
+CREATE USER 'root'@'localhost' IDENTIFIED BY '';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';
+UPDATE user SET plugin='auth_socket' WHERE User='root';
+FLUSH PRIVILEGES;
+exit;
+MYSQL_SCRIPT
+
+sudo systemctl restart mariadb
+
+mysql -u root <<MYSQL_SCRIPT
+CREATE DATABASE soplanning;
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'root';
+GRANT ALL PRIVILEGES ON soplanning.* TO 'soplanning'@'localhost';
+FLUSH PRIVILEGES;
+MYSQL_SCRIPT
+sudo mkdir -p /var/www/html/soplanning
+cd /tmp
+wget https://netcologne.dl.sourceforge.net/project/soplanning/soplanning/v1.45/soplanning-1-45.zip
+unzip soplanning-1-45.zip
+sudo cp -r soplanning /var/www/html/soplanning
+sudo chown -R www-data.www-data /var/www/html/soplanning
+sudo chmod -R 775 /var/www/html/soplanning
+sudo a2ensite soplanning.conf && sudo a2enmod rewrite
+#CMD apachectl -k start -X
+
+
+
+GRANT ALL PRIVILEGES ON soplanning.* TO 'root'@'localhost' IDENTIFIED BY 'root';

@@ -17,7 +17,7 @@ IoT CVEs
 | Password Hash Disclosure | [CVE-2019-13349](CVE-2019-13349) | Knowage<br>(FIWARE) | An authenticated user that accesses the users <br> page will obtain all user password hashes. | |
 | Path transversal | [CVE-2018-12015](CVE-2018-12015) | Perl | Archive::Tar module allows remote attackers to bypass a directory-traversal protection mechanism and overwrite arbitrary files. | |
 | Privilege escalation | [CVE-2019-14287](CVE-2019-14287) | Sudo | An attacker with access to a Runas ALL sudoer <br> account can bypass certain policy blacklists and <br> session PAM modules, and can cause incorrect <br> logging, by invoking sudo with a crafted user ID. | | 
-| Privilege escalation | [CVE-2019-9891](CVE-2019-9891) | - | The function *getopt_simple* as described in Advanced Bash Scripting Guide allows privilege escalation and execution of commands when used in a shell script. | | 
+| Privilege escalation | [CVE-2019-9891](CVE-2019-9891) | - | The function *getopt_simple* as described in *Advanced Bash Scripting Guide* allows privilege escalation and execution of commands when used in a shell script. | | 
 | Privilege escalation | [CVE-2019-8320](CVE-2019-8320) | Ruby | A Directory Traversal issue was discovered in RubyGems allowing to delete arbitrary files. | |
 | Privilege escalation / RCE | [CVE-2019-5736](CVE-2019-5736) | Docker | The vulnerability allows a malicious container (with minimal user interaction) to overwrite the host <br><i>runc</i> binary and thus gain root-level code execution on the host. | |
 | Privilege escalation | [CVE-2018-10933](CVE-2018-10933) | SSH | The **libssh**, a multiplatform library that supports <br> the SSH protocol, allows attackers to bypass authentication and gain full control over vulnerable servers. | |

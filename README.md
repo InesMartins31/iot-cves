@@ -30,7 +30,6 @@ IoT CVEs
 | RCE | [CVE-2019-11043](CVE-2019-11043) | PHP-FPM | In certain configurations of FPM setup it is possible to cause FPM module to write past allocated <br>buffers into the space reserved for FCGI protocol data, thus opening the possibility of remote <br>code execution. In certain nginx + PHP-FPM configurations, the bug is possible to trigger from the outside. | |
 | RCE | [CVE-2019-9624](CVE-2019-9624) | Webmin | Allows remote attackers to execute arbitrary <br> code by leveraging privileges to upload a crafted <br> .cgi file via the /updown/upload.cgi URI. | |
 | RCE | [CVE-2019-7731](CVE-2019-7731) | MyWebSQL | MyWebSQL 3.7 has a remote code execution <br> vulnerability after an attacker writes shell code <br> into the database, and executes the Backup Database function with a .php filename for the backup's archive file | |
-| Remote file reading | [CVE-2018-18778](CVE-2018-18778) | Mini_httpd | Mini_httpd before 1.30 lets remote users read arbitrary files. | |
 | SQL <br> Injection | [CVE-2020-9340](CVE-2020-9340) | eLection | fauzantrif eLection 2.0 has SQL Injection via the admin/ajax/op_kandidat.php *id* parameter. | |  
 | SQL <br> Injection | [CVE-2020-9268](CVE-2020-9268) | SO Planning | SoPlanning 1.45 is vulnerable to SQL Injection in the OrderBy clause, as demonstrated by the projets.php?order=nom_createur&by= substring. |
 | Unauthorized File <br> Read | [CVE-2020-1938](CVE-2020-1938) | Apache<br>Tomcat | The AJP protocol is enabled by default allowing <br>untrusted clients to read web application files. | |

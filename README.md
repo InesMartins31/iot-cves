@@ -15,7 +15,7 @@ IoT CVEs
 | Improper file access | [CVE-2018-8712](CVE-2018-8712) | Webmin | Due to weak default configuration settings, <br>limited users have full access rights to the underlying system files, allowing the user to read sensitive data from the local system. | |
 | MitM | [CVE-2019-6110 / CVE-2019-6111](CVE-2019-6111) | SCP - Secure Copy <br>(openssh-clients package) | Vulnerability in OpenSSH that allows overwrite <br> in files and could possible send more responses <br> than required by user. | |
 | Password Hash Disclosure | [CVE-2019-13349](CVE-2019-13349) | Knowage<br>(FIWARE) | An authenticated user that accesses the users <br> page will obtain all user password hashes. | |
-| Path transversal | [CVE-2018-12015](CVE-2018-12015) | Perl | Archive::Tar module allows remote attackers to bypass a directory-traversal protection mechanism and overwrite arbitrary files. | |
+| Path traversal | [CVE-2018-12015](CVE-2018-12015) | Perl | Archive::Tar module allows remote attackers to bypass a directory-traversal protection mechanism and overwrite arbitrary files. | |
 | Privilege escalation | [CVE-2019-14287](CVE-2019-14287) | Sudo | An attacker with access to a Runas ALL sudoer <br> account can bypass certain policy blacklists and <br> session PAM modules, and can cause incorrect <br> logging, by invoking sudo with a crafted user ID. | | 
 | Privilege escalation | [CVE-2019-9891](CVE-2019-9891) | - | The function *getopt_simple* as described in *Advanced Bash Scripting Guide* allows privilege escalation and execution of commands when used in a shell script. | | 
 | Privilege escalation | [CVE-2019-8320](CVE-2019-8320) | Ruby | A Directory Traversal issue was discovered in RubyGems allowing to delete arbitrary files. | |

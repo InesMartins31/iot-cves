@@ -11,6 +11,7 @@ By instancing an intrusion detection task as an anomaly detection problem, the d
 <p align="justify">
 In this repository, a list of CVE, Common Vulnerabilities and Exposures, is indexed according to its attack type, identification, hardware/software required to run the exploitation, as well as a brief description. Each identification connects to another page depicting the main topics, such as the official website, the software/hardware requirements, and the instruction to execute the CVE.
 </p>
+
 ---
 | Attack type | CVE | Hardware / Software | Description | Priority |
 |:----------------------------------------------------------------------:|:----------------------------------------------:|:-----------------------------------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------:|
@@ -53,6 +54,7 @@ In this repository, a list of CVE, Common Vulnerabilities and Exposures, is inde
 <!---
 Testing comment
 -->
+
 ---
 ### Fundings
 <p align="justify">

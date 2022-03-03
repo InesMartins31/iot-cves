@@ -51,3 +51,9 @@ In this repository, a list of CVE, Common Vulnerabilities and Exposures, is inde
 <!---
 Testing comment
 -->
+###### Fundings
+The work of In\^es Martins has been supported by Fundação para a Ciência e Tecnologia (FCT), Portugal - 2021.04908.BD and partially funded by the SafeCities POCI-01-0247-FEDER-041435 project through COMPETE 2020 program.
+The work of Jo\~ao S. Resende has been supported by the EU H2020-SU-ICT-03-2018 Project No. 830929 CyberSec4Europe (cybersec4europe.eu).
+The work of Patr\'icia R. Sousa has been supported by the Project “City Catalyst – Catalisador para cidades sustentáveis”, ref. POCI-01-0247-FEDER-046112, financed by Fundo Europeu de Desenvolvimento Regional (FEDER),through COMPETE 2020 and Portugal 2020.
+The work of Sim\~ao Silva was partially funded by the SafeCities POCI-01-0247-FEDER-041435 project through COMPETE 2020 program.
+The work of Lu\'is Antunes has been supported by the Project “CNCS - Centro Nacional de Cibersegurança - Serviço de Gestão Alargada do Conhecimento Situacional e Operacional do Ciberespaço Nacional”, ref. POCI-05-5762-FSE-000229, financed by Agência para a Modernização Administrativa.

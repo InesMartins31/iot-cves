@@ -1,7 +1,13 @@
 IoT CVE
 ===================================================
 <p align="justify">
-The following repository represents an abnormal data collection strategy for a security system in IoT. Based on a detailed risk assessment and collaboration with domain experts, the data collection framework should analyze patterns to spot potential threats and points of failure. Obtaining valid, representative, and accurate data that reflects the context and environment is critical to building an IDS fit for exploitation.
+The following repository represents an abnormal data collection strategy for a security system in IoT. Based on a detailed risk assessment and collaboration with domain experts, the data collection framework should analyze patterns to spot potential threats and points of failure. Obtaining valid, representative, and accurate data that reflects the context and environment is critical to building an IDS fit for exploitation. 
+</p>
+<p align="justify">
+This procedure is detailed in the article, published in Future Generation Computer Systems, entitled: 
+  
+> Host-based IDS: a review and open issues of an anomaly detection system in IoT
+  
 </p>
 
 ---

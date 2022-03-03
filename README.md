@@ -61,16 +61,16 @@ Testing comment
 
 <p align="justify">
 The work of Inês Martins has been supported by Fundação para a Ciência e Tecnologia [FCT](https://www.fct.pt/), Portugal - 2021.04908.BD and partially funded by the SafeCities POCI-01-0247-FEDER-041435 project through [COMPETE 2020](https://www.compete2020.gov.pt/) program.
-<\p>
+</p>
 <p align="justify">  
 The work of João S. Resende has been supported by the EU H2020-SU-ICT-03-2018 Project No. 830929 [CyberSec4Europe](cybersec4europe.eu).
-<\p>
+</p>
 <p align="justify">
 The work of Patrícia R. Sousa has been supported by the Project “City Catalyst – Catalisador para cidades sustentáveis”, with reference POCI-01-0247-FEDER-046112, financed by Fundo Europeu de Desenvolvimento Regional (FEDER), through [COMPETE 2020](https://www.compete2020.gov.pt/) and [Portugal 2020](https://portugal2020.pt/) programs.
-<\p>
+</p>
 <p align="justify">
 The work of Simão Silva was partially funded by the SafeCities POCI-01-0247-FEDER-041435 project through [COMPETE 2020](https://www.compete2020.gov.pt/) program.
-<\p>
+</p>
 <p align="justify">
 The work of Luís Antunes has been supported by the Project “CNCS - Centro Nacional de Cibersegurança - Serviço de Gestão Alargada do Conhecimento Situacional e Operacional do Ciberespaço Nacional”, with reference POCI-05-5762-FSE-000229, financed by Agência para a Modernização Administrativa.
-<\p>
+</p>

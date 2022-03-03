@@ -5,7 +5,7 @@ IoT CVE
 The following repository represents an abnormal data collection strategy for a security system in IoT. Based on a detailed risk assessment and collaboration with domain experts, the data collection framework should analyze patterns to spot potential threats and points of failure. Obtaining valid, representative, and accurate data that reflects the context and environment is critical to building an IDS fit for exploitation.
 </p>
 
-### Real-time host-based dataset
+#### Real-time host-based dataset
 <p align="justify">
 By instancing an intrusion detection task as an anomaly detection problem, the dataset consists of expected behavior, regular system interactions, and abnormal events interpreted as threats, software errors, and vulnerabilities that can compromise the entire infrastructure. Therefore, in order to reproduce an online and incremental framework, the anomalies will be injected into the working system to evaluate its performance regarding the false alarm rates, false-negative rates, and delay between the incoming threat and its report times.
 </p>
@@ -57,7 +57,7 @@ Testing comment
 -->
 
 ---
-### Fundings
+#### Fundings
 
 <p align="justify">
 The work of Inês Martins has been supported by Fundação para a Ciência e Tecnologia [FCT](https://www.fct.pt/), Portugal - 2021.04908.BD and partially funded by the SafeCities POCI-01-0247-FEDER-041435 project through [COMPETE 2020](https://www.compete2020.gov.pt/) program.

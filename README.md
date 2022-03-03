@@ -7,7 +7,8 @@ The following repository represents an abnormal data collection strategy for a s
 ### Real-time host-based dataset
 <p align="justify">
 By instancing an intrusion detection task as an anomaly detection problem, the dataset consists of expected behavior, regular system interactions, and abnormal events interpreted as threats, software errors, and vulnerabilities that can compromise the entire infrastructure. Therefore, in order to reproduce an online and incremental framework, the anomalies will be injected into the working system to evaluate its performance regarding the false alarm rates, false-negative rates, and delay between the incoming threat and its report times.
-
+</p>
+<p align="justify">
 In this repository, a list of CVE, Common Vulnerabilities and Exposures, is indexed according to its attack type, identification, hardware/software required to run the exploitation, as well as a brief description. Each identification connects to another page depicting the main topics, such as the official website, the software/hardware requirements, and the instruction to execute the CVE.
 </p>
 ---
@@ -54,13 +55,18 @@ Testing comment
 -->
 ---
 ### Fundings
-
+<p align="justify">
 The work of Inês Martins has been supported by Fundação para a Ciência e Tecnologia [FCT](https://www.fct.pt/), Portugal - 2021.04908.BD and partially funded by the SafeCities POCI-01-0247-FEDER-041435 project through [COMPETE 2020](https://www.compete2020.gov.pt/) program.
-  
+<\p>
+<p align="justify">  
 The work of João S. Resende has been supported by the EU H2020-SU-ICT-03-2018 Project No. 830929 [CyberSec4Europe](cybersec4europe.eu).
-
+<\p>
+<p align="justify">
 The work of Patrícia R. Sousa has been supported by the Project “City Catalyst – Catalisador para cidades sustentáveis”, with reference POCI-01-0247-FEDER-046112, financed by Fundo Europeu de Desenvolvimento Regional (FEDER), through [COMPETE 2020](https://www.compete2020.gov.pt/) and [Portugal 2020](https://portugal2020.pt/) programs.
-
+<\p>
+<p align="justify">
 The work of Simão Silva was partially funded by the SafeCities POCI-01-0247-FEDER-041435 project through [COMPETE 2020](https://www.compete2020.gov.pt/) program.
-
+<\p>
+<p align="justify">
 The work of Luís Antunes has been supported by the Project “CNCS - Centro Nacional de Cibersegurança - Serviço de Gestão Alargada do Conhecimento Situacional e Operacional do Ciberespaço Nacional”, with reference POCI-05-5762-FSE-000229, financed by Agência para a Modernização Administrativa.
+<\p>

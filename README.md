@@ -1,14 +1,15 @@
 IoT CVE
 ===================================================
 ---
+<p align="justify">
 The following repository represents an abnormal data collection strategy for a security system in IoT. Based on a detailed risk assessment and collaboration with domain experts, the data collection framework should analyze patterns to spot potential threats and points of failure. Obtaining valid, representative, and accurate data that reflects the context and environment is critical to building an IDS fit for exploitation.
-
+</p>
 ### Real-time host-based dataset
-
+<p align="justify">
 By instancing an intrusion detection task as an anomaly detection problem, the dataset consists of expected behavior, regular system interactions, and abnormal events interpreted as threats, software errors, and vulnerabilities that can compromise the entire infrastructure. Therefore, in order to reproduce an online and incremental framework, the anomalies will be injected into the working system to evaluate its performance regarding the false alarm rates, false-negative rates, and delay between the incoming threat and its report times.
 
 In this repository, a list of CVE, Common Vulnerabilities and Exposures, is indexed according to its attack type, identification, hardware/software required to run the exploitation, as well as a brief description. Each identification connects to another page depicting the main topics, such as the official website, the software/hardware requirements, and the instruction to execute the CVE.
-
+</p>
 ---
 | Attack type | CVE | Hardware / Software | Description | Priority |
 |:----------------------------------------------------------------------:|:----------------------------------------------:|:-----------------------------------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------:|

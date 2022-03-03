@@ -2,14 +2,14 @@ IoT CVE
 ===================================================
 
 The following repository represents an abnormal data collection strategy for a security system in IoT. Based on a detailed risk assessment and collaboration with domain experts, the data collection framework should analyze patterns to spot potential threats and points of failure. Obtaining valid, representative, and accurate data that reflects the context and environment is critical to building an IDS fit for exploitation.
-
+---
 ### Real-time host-based dataset
 
 By instancing an intrusion detection task as an anomaly detection problem, the dataset consists of expected behavior, regular system interactions, and abnormal events interpreted as threats, software errors, and vulnerabilities that can compromise the entire infrastructure. Therefore, in order to reproduce an online and incremental framework, the anomalies will be injected into the working system to evaluate its performance regarding the false alarm rates, false-negative rates, and delay between the incoming threat and its report times.
 
 In this repository, a list of CVE, Common Vulnerabilities and Exposures, is indexed according to its attack type, identification, hardware/software required to run the exploitation, as well as a brief description. Each identification connects to another page depicting the main topics, such as the official website, the software/hardware requirements, and the instruction to execute the CVE.
 
-
+---
 | Attack type | CVE | Hardware / Software | Description | Priority |
 |:----------------------------------------------------------------------:|:----------------------------------------------:|:-----------------------------------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------:|
 | Access Control Bypass | [CVE-2019-13188](CVE-2019-13188) | Knowage<br>(FIWARE) | In Knowage through 6.1.1, an unauthenticated user can bypass access controls and access the entire application | |
@@ -51,6 +51,7 @@ In this repository, a list of CVE, Common Vulnerabilities and Exposures, is inde
 <!---
 Testing comment
 -->
+---
 ### Fundings
 
 The work of Inês Martins has been supported by Fundação para a Ciência e Tecnologia [FCT](https://www.fct.pt/), Portugal - 2021.04908.BD and partially funded by the SafeCities POCI-01-0247-FEDER-041435 project through [COMPETE 2020](https://www.compete2020.gov.pt/) program.

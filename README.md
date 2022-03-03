@@ -54,7 +54,7 @@ Testing comment
 ###### Fundings
 The work of Inês Martins has been supported by Fundação para a Ciência e Tecnologia (FCT), Portugal - 2021.04908.BD and partially funded by the SafeCities POCI-01-0247-FEDER-041435 project through COMPETE 2020 program.
   
-The work of João S. Resende has been supported by the EU H2020-SU-ICT-03-2018 Project No. 830929 CyberSec4Europe (cybersec4europe.eu).
+The work of João S. Resende has been supported by the EU H2020-SU-ICT-03-2018 Project No. 830929 [CyberSec4Europe](cybersec4europe.eu).
 
 The work of Patrícia R. Sousa has been supported by the Project “City Catalyst – Catalisador para cidades sustentáveis”, ref. POCI-01-0247-FEDER-046112, financed by Fundo Europeu de Desenvolvimento Regional (FEDER), through COMPETE 2020 and Portugal 2020 programs.
 

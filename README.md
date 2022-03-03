@@ -10,7 +10,6 @@ This procedure is detailed in the article, published in Future Generation Comput
   
 </p>
 
----
 #### Real-time host-based dataset
 <p align="justify">
 By instancing an intrusion detection task as an anomaly detection problem, the dataset consists of expected behavior, regular system interactions, and abnormal events interpreted as threats, software errors, and vulnerabilities that can compromise the entire infrastructure. Therefore, in order to reproduce an online and incremental framework, the anomalies will be injected into the working system to evaluate its performance regarding the false alarm rates, false-negative rates, and delay between the incoming threat and its report times.

@@ -72,8 +72,9 @@ Testing comment
 
 * The work of Simão Silva was partially funded by the SafeCities POCI-01-0247-FEDER-041435 project through [COMPETE 2020](https://www.compete2020.gov.pt) program.
 
-* The work of Luís Antunes has been supported by the Project “CNCS - Centro Nacional de Cibersegurança - Serviço de Gestão Alargada do Conhecimento Situacional e Operacional do Ciberespaço Nacional”, with reference POCI-05-5762-FSE-000229, financed by Agência para a Modernização Administrativa.
 * The work of João Gama was partially supported by the European Commission-funded project [Humane AI: Toward AI Systems That Augment and Empower Humans by Understanding Us, our Society and the World Around Us](https://cordis.europa.eu/project/id/820437) (grant # 820437). 
+
+* The work of Luís Antunes has been supported by the Project “CNCS - Centro Nacional de Cibersegurança - Serviço de Gestão Alargada do Conhecimento Situacional e Operacional do Ciberespaço Nacional”, with reference POCI-05-5762-FSE-000229, financed by Agência para a Modernização Administrativa.
 
 All the supports mentioned above are gratefully acknowledged.
 

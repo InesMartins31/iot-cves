@@ -8,6 +8,8 @@ This procedure is detailed in the article, published in Future Generation Comput
   
 > Host-based IDS: a review and open issues of an anomaly detection system in IoT
   
+  https://doi.org/10.1016/j.future.2022.03.001
+  
 </p>
 
 #### Real-time host-based dataset
